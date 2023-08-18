@@ -4,6 +4,7 @@ function Todo({ todoData, isFinished, changeFinished, onDelete, onEdit }) {
   const [finished, setFinished] = useState(isFinished);
   const [isEditing, setIsEditing] = useState(false);
   const [editText, setEditText] = useState(todoData);
+
   return (
     <div>
       <input
